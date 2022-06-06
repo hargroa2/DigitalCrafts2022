@@ -1,0 +1,18 @@
+git: Command 
+status: Argument 
+
+rm: a command
+-rf: An option
+./Sample: Argument
+
+/usr/bin/ruby: Argument
+-e: An option
+curl: An argument
+-f: Option
+-s: Option
+-S: An option
+-L: An option
+URL: An argument
+
+
+
