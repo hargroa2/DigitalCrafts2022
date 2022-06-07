@@ -5,7 +5,7 @@ def flipCoin():
     coin = random.randint(1,2)
     if coin == 1:
         print("It's heads!")
-    elif coin == 2:
+    if coin == 2:
         print("It's tails!")
 
 flipCoin()
