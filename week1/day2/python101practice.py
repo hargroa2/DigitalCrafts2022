@@ -1,36 +1,36 @@
 #Small 1.
-name = input("What is your name? ")
-print("Hello, " + name + "!")
+# name = input("What is your name? ")
+# print("Hello, " + name + "!")
 
-#Small 2.
-name2 = input("WHAT IS YOUR NAME? ")
-nameLength = len(name2)
-print("HELLO, " + name2.upper() + "!")
-print("YOUR NAME HAS " + str(nameLength) + " CHARACTERS!")
+# #Small 2.
+# name2 = input("WHAT IS YOUR NAME? ")
+# nameLength = len(name2)
+# print("HELLO, " + name2.upper() + "!")
+# print("YOUR NAME HAS " + str(nameLength) + " CHARACTERS!")
 
-#Small 3.
-print("Please fill in the blanks below: ")
-print("___(name)___'s favorite subject is ___(subject)___.")
-theName = input("What is the name? ")
-theSubject = input("What is your favorite subject? ")
-print(theName + "'s favorite animal is a " + theSubject)
+# #Small 3.
+# print("Please fill in the blanks below: ")
+# print("___(name)___'s favorite subject is ___(subject)___.")
+# theName = input("What is the name? ")
+# theSubject = input("What is your favorite subject? ")
+# print(theName + "'s favorite animal is a " + theSubject)
 
 #Small 4. (Didn't have to do this, was just curious)
 day = int(input("Day (0-6)?"))
 match day:
-    case "0":
+    case 0:
         print("Sunday")
-    case "1":
+    case 1:
         print("Monday")
-    case "2":
+    case 2:
         print("Tuesday")
-    case "3":
+    case 3:
         print("Wednesday")
-    case "4":
+    case 4:
         print("Thursday")
-    case "5":
+    case 5:
         print("Friday")
-    case "6":
+    case 6:
         print("Saturday")
 
 print(day)
@@ -40,7 +40,7 @@ for i in range(5):
     print("*****")
 
 #Small 10.
-squareSize = int(input("How big"))
+squareSize = int(input("How big is the square? "))
 for i in range(squareSize): #Run as many times as square size is
     print("*" * squareSize)
 
