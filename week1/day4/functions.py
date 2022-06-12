@@ -67,6 +67,5 @@
 #     print(first, last, city, food, hobbs)
 
 # aboutMe()
-
-
+# list(range(10))
 
