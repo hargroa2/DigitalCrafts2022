@@ -1,0 +1,88 @@
+body {
+  background-color: #202124;
+  font-family: "Roboto", sans-serif;
+}
+
+#navContainer {
+  display: flex;
+}
+
+div #leftNav {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+#leftNav ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 130px;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  list-style: none;
+  width: 250px;
+}
+
+#googlelogo {
+  width: 18%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+/* Removing underline from links*/
+a {
+  text-decoration: none;
+}
+
+#profilepic {
+  width: 30px;
+  height: 30px;
+}
+
+#searchbar {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+
+#shield {
+  width: 30px;
+  height: 30px;
+}
+
+#buttons {
+  width: 15%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+button {
+  padding: 6px;
+  background-color: #303033;
+  border: 1px solid #303033;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+#privacy {
+  width: 18%;
+  margin: 0 auto;
+}

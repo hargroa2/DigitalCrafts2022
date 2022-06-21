@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#bbhead {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#headtitle {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+#navContainer,
+#navContainer2 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+ul {
+  list-style: square;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0;
+  height: 15px;
+  padding-left: 0;
+  color: blue;
+}
+
+ul li a {
+  color: orange;
+}
+
+hr {
+  background-color: red;
+  height: 1px;
+  border: none;
+  width: 60%;
+}
+
+p {
+  color: white;
+}
+
+a:visited {
+  color: orange;
+}
+
+#cdimg img {
+  width: 20%;
+  margin: 5% 20% 5% 40%;
+}
+
+#therock,
+#segasaturn {
+  width: 70px;
+  height: 100px;
+}
+
+#columnLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#horzLayout,
+#theRockLayout,
+#segaLayout {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+footer p {
+  text-align: center;
+  margin: 0 5% 0 5%;
+}
