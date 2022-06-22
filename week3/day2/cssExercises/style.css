@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+}
+
+/* Center button */
+
+#centerButton {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Color Boxes */
+
+#colorBoxes {
+  display: flex;
+}
+
+#box1 {
+  background-color: #f85f60;
+  padding: 5rem;
+}
+
+#box2 {
+  background-color: #5fafff;
+  padding: 5rem;
+}
+
+#box3 {
+  background-color: #fdff5f;
+  padding: 5rem;
+}
+
+/* Chessboard */
+
+#chessContainer {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.item {
+  background-color: #ffce9e;
+  height: 100px;
+  width: 100px;
+}
+
+.row:nth-child(odd) > .item:nth-child(even) {
+  background-color: #d18a46;
+}
+
+.row:nth-child(even) > .item:nth-child(odd) {
+  background-color: #d18a46;
+}
