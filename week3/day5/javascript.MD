@@ -4,10 +4,10 @@
 - Data Types
 - Comments
 - If-statements
-- While loops
+<!-- - While loops
 - For loops
 - Functions
-- Operators
+- Operators -->
 - Dictionaries/Objects
 - OOP
 - Input/Output
