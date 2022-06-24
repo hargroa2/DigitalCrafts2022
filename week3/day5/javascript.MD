@@ -8,7 +8,7 @@
 - For loops
 - Functions
 - Operators
-<!-- - Dictionaries/Objects
+- Dictionaries/Objects
 - OOP
 - Input/Output
-- Switch statements -->
+- Switch statements
