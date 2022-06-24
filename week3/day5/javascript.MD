@@ -10,3 +10,5 @@
 - Operators
 - Dictionaries/Objects
 - OOP
+- Input/Output
+- Switch statements
