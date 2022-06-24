@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.gridContainer > div {
+  padding: 20px;
+  background-color: rgb(221, 196, 36);
+  color: white;
+}
+
+#one {
+  grid-column: 1 / 5;
+  padding-bottom: 200px;
+}
+
+.two {
+  grid-row: 2 / 6;
+}
+
+/* .three {
+
+} */
+
+.four {
+  grid-column: 3 / 5;
+}
+
+.five {
+  grid-column: 2 / 4;
+}
+
+/* .six {
+
+} */
+
+/* .seven {
+
+} */
+
+/* .eight {
+    
+} */
+
+/* .nine {
+
+} */
+
+.ten {
+  grid-column: 2 / 5;
+}

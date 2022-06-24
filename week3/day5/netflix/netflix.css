@@ -1,0 +1,60 @@
+body {
+  background-color: #181818;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.flexLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navContainer {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  height: 5%;
+}
+
+.leftNav img {
+  width: 100px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.rightNav ul {
+  display: flex;
+  gap: 5px;
+}
+
+.rightNav a,
+.rightNav ul {
+  font-size: 15px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+#redbutton {
+  background-color: red;
+  padding: 10px 30px 10px 30px;
+}
+
+#blackbutton {
+  border: 0.5px solid white;
+  padding: 10px 30px 10px 30px;
+}
+
+/* Main content */
+
+#movieHead {
+  margin-left: 15px;
+}
+
+#movieDescription {
+  width: 30rem;
+}
