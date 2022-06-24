@@ -31,7 +31,8 @@ body {
 }
 
 .rightNav a,
-.rightNav ul {
+.rightNav ul,
+.rightNav li {
   font-size: 15px;
   color: white;
   list-style: none;
@@ -51,10 +52,48 @@ body {
 
 /* Main content */
 
-#movieHead {
+#movieHead h1,
+#MovieHead p,
+h3 {
   margin-left: 15px;
+  font-weight: 100;
 }
 
 #movieDescription {
-  width: 30rem;
+  margin-left: 15px;
+  width: 500px;
+}
+
+.h3margin {
+  margin-top: 5rem;
+}
+/* Carousel */
+.flex,
+.flex2,
+.flex3 {
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+  /* overflow-x: auto; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+}
+
+.flex div img,
+.flex2 div img,
+.flex3 div img {
+  width: 19rem;
+  height: 10rem;
+}
+
+.scroller {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  flex-wrap: nowrap;
+  overscroll-behavior-inline: contain;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
 }

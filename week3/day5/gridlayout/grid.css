@@ -23,10 +23,6 @@ h1 {
   grid-row: 2 / 6;
 }
 
-/* .three {
-
-} */
-
 .four {
   grid-column: 3 / 5;
 }
@@ -34,22 +30,6 @@ h1 {
 .five {
   grid-column: 2 / 4;
 }
-
-/* .six {
-
-} */
-
-/* .seven {
-
-} */
-
-/* .eight {
-    
-} */
-
-/* .nine {
-
-} */
 
 .ten {
   grid-column: 2 / 5;
