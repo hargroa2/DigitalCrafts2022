@@ -1,10 +1,9 @@
 # JavaScript vs. Python
 
-<!-- - Variables
+- Variables
 - Data Types
 - Comments
-- If-statements -->
-
+- If-statements
 - While loops
 - For loops
 - Functions
