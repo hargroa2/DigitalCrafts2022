@@ -73,10 +73,6 @@ h3 {
 .flex3 {
   display: flex;
   gap: 10px;
-  /* justify-content: center; */
-  /* overflow-x: auto; */
-  /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap; */
 }
 
 .flex div img,
@@ -96,4 +92,10 @@ h3 {
 
 .scroller::-webkit-scrollbar {
   display: none;
+}
+
+.flex p,
+.flex2 p,
+.flex3 p {
+  text-align: center;
 }
