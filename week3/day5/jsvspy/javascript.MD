@@ -2,13 +2,13 @@
 
 - Variables
 - Data Types
+- Operators
 - Comments
+- Input/Output
 - If-statements
 - While loops
 - For loops
 - Functions
-- Operators
 - Dictionaries/Objects
 - OOP
-- Input/Output
 - Switch statements
