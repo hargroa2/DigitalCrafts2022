@@ -1,0 +1,11 @@
+.bg-success {
+  background-color: rgb(124, 25, 19) !important;
+}
+
+.bg-light {
+  background-color: rgb(240, 244, 209) !important;
+}
+
+.bg-warning {
+  background-color: yellow !important;
+}
