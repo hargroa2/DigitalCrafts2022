@@ -30,20 +30,28 @@
           </tr>
           <tr>
             <th>Primitive Data Types</th>
-            <td>int, float, string, boolean</td>
             <td>
-              int, float, boolean, string, null, undefined, Symbol, BigInt
+              <code>int, float, string, boolean </code>
+            </td>
+            <td>
+              <code>
+                int, float, boolean, string, null, undefined, Symbol, BigInt
+              </code>
             </td>
           </tr>
           <tr>
             <th>Operators</th>
             <td>
-              +, -, *, /, //, %, **, !=, ==, comparisons, and, or, not,
-              type(instacne)
+              <code>
+                +, -, *, /, //, %, **, !=, ==, comparisons, and, or, not,
+                type(instance)
+              </code>
             </td>
             <td>
-              +, -, *, /, Math.floor(5/6), ==, ===, comparisons, &&, ||, !,
-              typeof instance
+              <code>
+                +, -, *, /, Math.floor(5/6), ==, ===, comparisons, &&, ||, !,
+                typeof instance
+              </code>
             </td>
           </tr>
           <tr>
@@ -70,44 +78,204 @@
             </td>
           </tr>
           <tr>
-            <th>Lists</th>
+            <th>Lists/Arrays</th>
             <td><code>pylist = [3, "hi", True]</code></td>
             <td><code>let jslist = [4, "hey", false];</code></td>
           </tr>
           <tr>
             <th>If-Statements</th>
-            <td><code> </code></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                if x < 5: 
+                    print(x)
+                elif x > 10:
+                    # condition
+                else:
+                    # condition
+                </pre>
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                    if (x < 5) {
+                        console.log(x);
+                    } else if (x > 10) {
+                        // condition
+                    } else {
+                        // condition
+                    }
+                </pre>
+              </code>
+            </td>
           </tr>
           <tr>
             <th>While loops</th>
-            <td></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                    while x > 5:
+                        print(x)
+                </pre>
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                    while(x > 5) {
+                        console.log(x);
+                    }
+                    </pre
+                >
+              </code>
+            </td>
           </tr>
           <tr>
             <th>For loops</th>
-            <td></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                    for i in range(n):
+                        print(i)
+                </pre>
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                    for(let i = 0; i < n; i++) {
+                        console.log(i);
+                    }
+                    </pre
+                >
+              </code>
+            </td>
           </tr>
           <tr>
             <th>Functions</th>
-            <td></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                    def functionName(p1, p2):
+                        print("function")
+                        
+                    functionName(1, 2)
+                    </pre
+                >
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                    function functionName(p1, p2) {
+                        console.log("function");
+                    }
+
+                    functionName(1, 2);
+                </pre>
+              </code>
+            </td>
           </tr>
           <tr>
             <th>Dictionaries/Objects</th>
-            <td></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                    dict = {
+                        "brand": "Ford",
+                        "model": "Mustang",
+                        "year": 1964
+                    }
+                </pre>
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                    const dict = {
+                        brand: "Ford",
+                        model: "Mustang",
+                        year: 1964
+                    };
+                </pre>
+              </code>
+            </td>
           </tr>
           <tr>
             <th>OOP</th>
-            <td></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                    class Circle:
+                        def __init__(self, radius, color):
+                            self.radius = radius
+                            self.color = color
+                        
+                        def calcDiameter(self):
+                            return self.radius * 2
+                        
+                        myCircle = Circle(5, "red")
+                </pre>
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                    class Circle {
+                        constructor(radius, color) {
+                            this.radius = radius;
+                            this.color = color;
+                        }
+
+                        calcDiameter() {
+                            return this.radius * 2;
+                        }
+                    }
+
+                    myCircle = new Circle(5, "red");
+                </pre>
+              </code>
+            </td>
           </tr>
           <tr>
             <th>Switch Statements</th>
-            <td></td>
-            <td></td>
+            <td>
+              <code>
+                <pre>
+                        match day:
+                            case 1:
+                                print("Monday")
+                            case 2:
+                                print("Tuesday")
+                            case 3:
+                                print("Wednesday")
+                            default:
+                                print("Default")
+                    </pre
+                >
+              </code>
+            </td>
+            <td>
+              <code>
+                <pre>
+                        switch(day) {
+                            case 1:
+                            console.log("Monday");
+                                break;
+                            case 2:
+                            console.log("Tuesday");
+                                break;
+                            case 3:
+                                console.log("Wednesday");
+                                break;
+                            default:
+                                console.log("Default");
+                        }
+                    </pre
+                >
+              </code>
+            </td>
           </tr>
         </tbody>
       </table>
