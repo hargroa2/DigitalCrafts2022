@@ -18,4 +18,6 @@ const newListItem = () => {
   document.getElementById("myInput").value = "";
 };
 
+deleteItem = () => {};
+
 // ======================
