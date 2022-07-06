@@ -26,7 +26,6 @@ const exploreFeelings = async (emote) => {
   const inspireData = await fetch(urlInspire);
   const json5 = await inspireData.json();
 
-  //   const smallerCons = document.getElementsByClassName("smallCons");
   const priceBox = document.getElementById("price");
   const friendBox = document.getElementById("friend");
 
@@ -36,76 +35,74 @@ const exploreFeelings = async (emote) => {
     const advAct = document.createElement("p");
     advAct.innerText = json.activity;
     actContainer.append(advAct);
-    console.log(json);
 
     //price box
     const advPrice = document.createElement("p");
-    advPrice.innerText = json.price;
+    advPrice.innerText = "$" + json.price;
     priceBox.append(advPrice);
 
     //friends box
     const advFriends = document.createElement("p");
-    advFriends.innerText = json.participants;
+    advFriends.innerText = json.participants + " " + "friend(s)";
     friendBox.append(advFriends);
   } else if (emote === "relaxed") {
     //activity
     const relAct = document.createElement("p");
-    relAct.innerText = json.activity;
+    relAct.innerText = json2.activity;
     actContainer.append(relAct);
-    console.log(json2);
 
     //price box
     const relPrice = document.createElement("p");
-    relPrice.innerText = json.price;
+    relPrice.innerText = "$" + json2.price;
     priceBox.append(relPrice);
 
     //friends box
     const relFriends = document.createElement("p");
-    relFriends.innerText = json.participants;
+    relFriends.innerText = json2.participants + " " + "friend(s)";
     friendBox.append(relFriends);
   } else if (emote === "social") {
     //activity
     const socAct = document.createElement("p");
-    socAct.innerText = json.activity;
+    socAct.innerText = json3.activity;
     actContainer.append(socAct);
 
     //price
     const socPrice = document.createElement("p");
-    socPrice.innerText = json.price;
+    socPrice.innerText = "$" + json3.price;
     priceBox.append(socPrice);
 
     //friends
     const socFriends = document.createElement("p");
-    socFriends.innerText = json.participants;
+    socFriends.innerText = json3.participants + " " + "friend(s)";
     friendBox.append(socFriends);
   } else if (emote === "charitable") {
     //activity
     const charAct = document.createElement("p");
-    charAct.innerText = json.activity;
+    charAct.innerText = json4.activity;
     actContainer.append(charAct);
 
     //price
     const charPrice = document.createElement("p");
-    charPrice.innerText = json.price;
+    charPrice.innerText = "$" + json4.price;
     priceBox.append(charPrice);
 
     //friends
     const charFriends = document.createElement("p");
-    charFriends.innerText = json.participants;
+    charFriends.innerText = json4.participants + " " + "friend(s)";
     friendBox.append(charFriends);
   } else {
     const inspireAct = document.createElement("p");
-    inspireAct.innerText = json.activity;
+    inspireAct.innerText = json5.activity;
     actContainer.append(inspireAct);
 
     //price
     const inspirePrice = document.createElement("p");
-    inspirePrice.innerText = json.price;
+    inspirePrice.innerText = "$" + json5.price;
     priceBox.append(inspirePrice);
 
     //friends
     const inspireFriends = document.createElement("p");
-    inspireFriends.innerText = json.participants;
+    inspireFriends.innerText = json5.participants + " " + "friend(s)";
     friendBox.append(inspireFriends);
   }
 };

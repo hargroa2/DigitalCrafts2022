@@ -6,22 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Self Care App</title>
     <link defer rel="stylesheet" href="style.css" />
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="selfcare.js"></script>
   </head>
   <body>
     <h1>Self Care App</h1>
-    <h2>Today I'm Feeling:</h2>
-    <!-- adventurous, relaxational, social, charitable, inspired (diy) -->
-    <div class="container">
-      <select name="" id="feelingActivity">
-        <option value="">select emotion</option>
-        <option value="adventurous">adventurous</option>
-        <option value="relaxed">relaxed</option>
-        <option value="social">social</option>
-        <option value="charitable">charitable</option>
-        <option value="inspired">inspired</option>
-      </select>
+    <div>
+      <p id="purpose">Find your purpose</p>
     </div>
+    <div id="darkerBoxContainer">
+      <div id="darkerBox">
+        <h2>Today, I'm Feeling:</h2>
+        <div class="container">
+          <select name="" id="feelingActivity">
+            <option value="">select emotion</option>
+            <option value="adventurous">adventurous</option>
+            <option value="relaxed">relaxed</option>
+            <option value="social">social</option>
+            <option value="charitable">charitable</option>
+            <option value="inspired">inspired</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- adventurous, relaxational, social, charitable, inspired (diy) -->
     <div id="centerContainer">
       <div id="grid">
         <h3>Price</h3>

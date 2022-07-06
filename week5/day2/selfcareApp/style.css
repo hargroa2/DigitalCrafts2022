@@ -1,5 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  animation: fadein 2s;
+}
+
+#purpose {
+  text-align: center;
+  margin-top: 5px;
+  animation: fadein 2s;
+}
+
 h1 {
   text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 h2 {
@@ -8,7 +34,6 @@ h2 {
 }
 
 .container {
-  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -16,8 +41,38 @@ h2 {
 #feelingActivity {
   padding: 15px;
   width: 15rem;
+  /* border-radius: 20px; */
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #736b60;
+  background: transparent;
+  transition: box-shadow 0.25s, transform 0.25s, background-color 0.25s;
+  font-family: "EB Garamond", serif;
+  animation: fadein 2s;
+}
+
+#feelingActivity:hover {
+  transition: box-shadow 0.25s, transform 0.25s, background-color 0.25s;
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(174, 165, 165);
+}
+
+#darkerBox {
+  border: 2px solid #736b60;
+  padding: 20px;
+  width: 30rem;
+  margin-left: 0;
+  margin-right: 0;
   border-radius: 20px;
 }
+
+#darkerBoxContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* input {
+  color: blue;
+} */
 
 #activity {
   background-color: rgb(241, 241, 241);
@@ -63,11 +118,11 @@ h2 {
   flex-direction: column;
   width: 300px;
   height: 300px;
-  /* height: 12rem; */
   border-radius: 20px;
-  background-color: brown;
+  background-color: #d0ab54;
   margin-left: 2rem;
   margin-right: 2rem;
+  /* animation: fadein 2s; */
 }
 
 #grid {
@@ -77,6 +132,11 @@ h2 {
   text-align: center;
   align-items: center;
   column-gap: 60px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* @media screen and (max-width: 600px) {
