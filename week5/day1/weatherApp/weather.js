@@ -17,7 +17,6 @@ const searchWeather = async () => {
 
   const weatherData = await fetch(forecastUrl);
   const json = await weatherData.json();
-  console.log(json);
 
   //temperature append
   const showTemp = document.createElement("p");
@@ -28,7 +27,7 @@ const searchWeather = async () => {
   //feelslike append
   const showFeel = document.createElement("p");
   showFeel.style.fontSize = "35px";
-  showFeel.innerText = json.list[0].main.feels_like + "\u00B0F";
+  showFeel.innerText = json.list[20].main.feels_like + "\u00B0F";
   feelsNumber.append(showFeel);
 
   //wind append
