@@ -9,6 +9,8 @@ const tempNumber = document.getElementById("tempNum");
 const feelsNumber = document.getElementById("feelsNum");
 const windNumber = document.getElementById("windNum");
 const humidNumber = document.getElementById("humidNum");
+const cityName = document.getElementById("city");
+const cityShow = document.getElementById("showCity");
 
 const searchWeather = async () => {
   const searchInput = document.getElementById("location").value;
@@ -17,6 +19,11 @@ const searchWeather = async () => {
 
   const weatherData = await fetch(forecastUrl);
   const json = await weatherData.json();
+  console.log(json);
+
+  //city
+  cityShow.innerText = "In " + json.city.name;
+  cityName.append(cityShow);
 
   //temperature append
   const showTemp = document.createElement("p");
