@@ -20,6 +20,7 @@ let options = {
 const theData = async () => {
   const data = await fetch(url, options);
   const dataJson = await data.json();
+  console.log(dataJson);
 };
 
 // method: 'POST', // *GET, POST, PUT, DELETE, etc.
