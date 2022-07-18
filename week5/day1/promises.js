@@ -54,13 +54,11 @@ const functionName = async () => {
   const json = await response.json();
   console.log(json.results); //must look at the data to know what to use
 
-  for (const monster of json.results) {
-    pokemonCard.classList = "pokemon-card";
-    const pokemonName = document.createElement("h1");
-    pokemonName.innerText = "pokemon name";
-    pokemonCard.appendChild(pokemonName);
-    container.appendChild(pokemonCard);
-  }
+  pokemonCard.classList = "pokemon-card";
+  const pokemonName = document.createElement("h1");
+  pokemonName.innerText = "pokemon name";
+  pokemonCard.appendChild(pokemonName);
+  container.appendChild(pokemonCard);
 };
 
 functionName();
