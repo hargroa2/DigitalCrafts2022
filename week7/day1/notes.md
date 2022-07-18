@@ -3,7 +3,7 @@ All browsers run on an engine of some sort
 Node uses V8, the same engine that runs JavaScript in the browser, and is an open-source, cross-platform runtime environment used for development of server-side web applications.
 
 - It uses an event-driven architecture
-- It uses non-blocking Input/Output API (if many requests on a server, you can take it all rather than one at a time) \*\*
+- It uses non-blocking Input/Output API (if many requests on a server, you can take it all rather than one at a time)
   - Allows multiple requests at one time
 
 Difference between Node v Browser JS

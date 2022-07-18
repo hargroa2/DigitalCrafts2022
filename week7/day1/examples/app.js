@@ -17,20 +17,20 @@ app.use(express.json());
 //Usually will have its HTTP method on it (get, post, etc.).
 //It will always include in this order: a req and a res (request and a reponse)
 // console.log("I'm outside the route");
-// app.get("/", (req, res) => {
-//   //inside here, you can do whatever you want inside of it
-//   console.log("I am inside the route");
-//   res.send("this is the home page");
-// }); //shows this message when you click "send" in Postman. Note that you cannot send back a response after you have sent it once. You can only send one response at a time
+app.get("/", (req, res) => {
+  //   //inside here, you can do whatever you want inside of it
+  // console.log("I am inside the route");
+  res.send("this is the home page");
+}); //shows this message when you click "send" in Postman. Note that you cannot send back a response after you have sent it once. You can only send one response at a time
 
 // app.get("/benji", (req, res) => { //simply change in Postman "localhost: 3000/benji"
 //   res.send("lizard");
 // });
 
 //Every route is made up of a request and a response. When you hit the route's the request. When you send back data, that is in the response
-// app.post("/create_user", (req, res) => {
-//   res.send(`Created user ${req.body.discplayer}`);
-// });
+app.post("/create_user", (req, res) => {
+  res.send(`Created user ${req.body.discplayer}`);
+});
 
 //3routes, one a get, 2 a post
 import * as cowsay from "cowsay";
