@@ -37,3 +37,7 @@ require() and module.exports =
 - Core Modules (included in node)
 - Local Modules (we write them ourselves via functions)
 - Third party Module (models that others have written and have installed)
+
+---
+
+# Node Modules Guide
