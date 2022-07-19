@@ -11,6 +11,7 @@ app.engine("html", es6Renderer);
 app.set("views", "templates");
 app.set("view engine", "html");
 
+//adding css or js files for frontend
 app.use(express.static("public"));
 app.use(express.json());
 
