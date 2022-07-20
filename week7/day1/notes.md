@@ -17,7 +17,7 @@ Difference between Node v Browser JS
 
 Modules have all of their own little worlds without having to interact with each other
 
-Event listners run different code based on events that occur. They're different from browser events (DOM, click, submit, etc.), whereas node events are network request received, file input completed
+Event listeners run different code based on events that occur. They're different from browser events (DOM, click, submit, etc.), whereas node events are network request received, file input completed
 
 - These events are asynchronous, which will execute the operation in the background and continue with processing other requests.
 
@@ -26,7 +26,7 @@ Node is good for game development, servers, streaming servers, drone technology,
 Modules are reusable pieces of code organized in separate files that can be reused throughout the Node.js application
 
 - Each module has its own context, so it cannot interfere with other modules or pollute global scope
-- Can be palced ins eparate files under a separate folder
+- Can be placed in separate files under a separate folder
 
 ### Module Pattern:
 
@@ -37,7 +37,3 @@ require() and module.exports =
 - Core Modules (included in node)
 - Local Modules (we write them ourselves via functions)
 - Third party Module (models that others have written and have installed)
-
----
-
-# Node Modules Guide
