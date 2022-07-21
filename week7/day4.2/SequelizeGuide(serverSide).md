@@ -27,7 +27,7 @@ You need to require your models. Remember, the models that got created by sequel
 At the top, write your code something like this. Remember your pathing might be different
 
 ```
-const {Pets, Clients} = require("../sequelize/models");
+const {Pets, Clients} = require("./sequelize/models");
 ```
 
 Now we can build our first route to READ the data
