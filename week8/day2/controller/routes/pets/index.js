@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { Pets } = require("../../../sequelize/models");
-//require the model so you can print the data onto the page
+//require the model so you can render the data onto the page
 
 //CREATE
 router.post("/create_pets", (req, res) => {
