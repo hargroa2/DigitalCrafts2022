@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ekbsakww",
+    "password": "G3M72TDODl9jS31Mm7kh_4kjNNiX62fE",
+    "database": "ekbsakww",
+    "host": "raja.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "ekbsakww",
+    "password": "G3M72TDODl9jS31Mm7kh_4kjNNiX62fE",
+    "database": "ekbsakww",
+    "host": "raja.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ekbsakww",
+    "password": "G3M72TDODl9jS31Mm7kh_4kjNNiX62fE",
+    "database": "ekbsakww",
+    "host": "raja.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}
