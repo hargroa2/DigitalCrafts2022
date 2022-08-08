@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glegoo&family=Hind+Siliguri&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      defer
+      rel="stylesheet"
+      type="text/css"
+      href="formval.css"
+    />
+    <script defer src="./app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="containerHome" id="button-travel">
+        <div class="left">
+          <h1 class="heading-style">Create Your Account</h1>
+          <form action="/users/create_user" method="post" class="form-style" id="form">
+            
+            <input type="text" name="name" placeholder="Name"  class="" id="name"/>
+            <small id="smallname">Error message</small>
+
+            <input type="text" name="username" placeholder="Username" id="username"/>
+            <small id="smallusername">Error message</small>
+
+            <input type="password" name="password" placeholder="Password" id="password" />
+            <small id="smallpassword">Error message</small>
+
+            <div id="guest-align">
+              <a href="#" class="right-link"
+                >Continue as guest</a
+              >
+            </div>
+            <input
+              class="button-style"
+              type="submit"
+              value="Create Account"
+              id="login-button"
+              href="#"
+            />
+          </form>
+        </div>
+  </body>
+</html>

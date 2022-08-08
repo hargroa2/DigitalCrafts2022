@@ -358,6 +358,7 @@ main > h1 {
 .main-profile-container {
   display: flex;
   width: 50vw;
+  margin-bottom: 50px;
 }
 
 .profile-container {
@@ -383,8 +384,7 @@ main > h1 {
   background-color: #f1f1f1;
   margin: 20px;
   padding: 20px;
-  width: 10vw;
-  height: 20vh;
+  width: 215.85px;
   justify-content: center;
   text-align: center;
 }
@@ -438,7 +438,8 @@ main > h1 {
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
-  margin-left: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -454,7 +455,6 @@ main > h1 {
   border: 2px solid black;
   padding: 10px;
   margin: 10px;
-  /* display: none; */
 }
 
 .description-container {
@@ -552,6 +552,11 @@ svg:hover {
   .mypets-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* Pet Profile */
+  .main-profile-container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 752px) {
@@ -615,10 +620,6 @@ svg:hover {
   .recent-container {
     margin-left: 50px;
   }
-
-  .glyph {
-    display: none;
-  }
 }
 
 @media (max-width: 480px) {
@@ -632,5 +633,9 @@ svg:hover {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
+  }
+
+  .recent-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
