@@ -67,7 +67,7 @@ const Form = () => {
               value={formData.email}
               onChange={(e) => validateInput(e.target.value, e.target.name)}
               placeholder="Email"
-              type="text"
+              type="email"
               className="inputSize"
             />
             <input
@@ -75,7 +75,7 @@ const Form = () => {
               value={formData.password}
               onChange={(e) => validateInput(e.target.value, e.target.name)}
               placeholder="Password"
-              type="text"
+              type="password"
               className="inputSize"
             />
             <input
