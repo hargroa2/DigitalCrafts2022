@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+}
+
+span {
+  font-size: 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.links:hover {
+  color: gray;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+input {
+  padding: 10px;
+  width: 20rem;
+  /* border-right: none; */
+}
+
+button {
+  width: 10rem;
+  padding: 10px;
+}
+
+.movieContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
