@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { useSelector, useDispatch } from "react-redux";
 import "./App.css";
 

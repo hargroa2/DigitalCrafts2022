@@ -1,0 +1,72 @@
+body {
+  background-color: #43aefc;
+}
+
+.App {
+  text-align: center;
+}
+
+.cardFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputCard {
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 60px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px soli darkgray;
+}
+
+.weatherCard {
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 3px;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.humidfeels {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid gray; */
+}
+
+.tiny {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.margin {
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #43aefc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
