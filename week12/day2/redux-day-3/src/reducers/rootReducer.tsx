@@ -37,13 +37,13 @@ const initialProducts = [
 
 type State = {
   products: ProductDetail[];
-  user: string;
+  // user: string;
   items: ProductDetail[];
 };
 
 const initialState: State = {
   products: initialProducts,
-  user: "Amanda",
+  // user: "Amanda",
   items: [],
 };
 
